@@ -1,0 +1,52 @@
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        display: none;
+    }
+    
+
+
+    .home-container {
+        background: url("Imagens/Home-responsive.png");
+        background-size: cover;
+        background-position: center top;
+
+
+    }
+    .hamburger-menu {
+        display: block;
+        
+    }
+
+
+    .icons svg {
+        display: inline;
+        position: relative;
+        right: 150px;
+
+
+        
+        
+    }
+    .about .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content {
+        max-width: 35rem;
+    }
+    .container-image {
+        display: none;
+    }
+    
+    .container-image-responsive {
+        display: block;
+       width: 90%;
+       
+    }
+    
+    .address iframe {
+        width: 40rem;
+    }
+
+}
