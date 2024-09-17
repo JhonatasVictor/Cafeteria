@@ -1,7 +1,12 @@
 @media screen and (max-width: 600px) {
 
+
     .navbar {
         display: none;
+    }
+    .logo img {
+        width: 60px;
+        height: 60px;
     }
     
 
@@ -10,9 +15,18 @@
         background: url("Imagens/Home-responsive.png");
         background-size: cover;
         background-position: center top;
-
+        height: 600px;
 
     }
+    .home-container section {
+         display: flex;
+         position: relative;
+         bottom: 100px;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+    
     .hamburger-menu {
         display: block;
         
@@ -20,18 +34,37 @@
 
 
     .icons svg {
+        height: 20px;
+        width: 20px;
         display: inline;
         position: relative;
-        right: 150px;
-
-
+        right: 140px;
+    
         
-        
+    }
+    .content h3 {
+        font-size: 1.8em;
+        font-weight: 800;
+    }
+    .content p {
+        font-size: 1.4em;
+        text-align: justify;
     }
     .about .row {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .about .row .content h3 {
+        font-size: 1.9em;
+    }
+
+    .about .row .content p {
+        font-size: 1.4em;
+        text-align: justify;
+        
+    }
+
     .content {
         max-width: 35rem;
     }
@@ -46,7 +79,8 @@
     }
     
     .address iframe {
-        width: 40rem;
+        width: 35rem;
+        height: 40rem;
     }
 
 }
