@@ -84,3 +84,30 @@
     }
 
 }
+
+
+@media screen and (min-width: 834px) and (max-width: 1194px) {
+    .home-container {
+        background: url("./Imagens/home-img.jpg");
+        background-size: cover;
+        background-position: center right;
+        background-attachment: fixed;
+}
+
+.container-image img {
+    width: 350px;
+    
+}
+
+
+.about .content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.about .content p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+}

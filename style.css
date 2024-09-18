@@ -231,8 +231,9 @@
     color: #ffff;
  }
 
- .about .row .content p {
-    font-size: 1.6rem;
+ .about .content p {
+    font-size: 0.1rem;
+    text-align: center;
     color: #fff;
     padding: 1rem 0;
     line-height: 1.8;
@@ -323,5 +324,6 @@
    background: var(--main-color);
    transition: 0.4s linear;
  }
+
 
 
